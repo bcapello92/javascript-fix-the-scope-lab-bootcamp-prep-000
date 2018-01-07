@@ -7,7 +7,7 @@ function changeAnimal(animal){
   if(animal =='dog'){
     return cat
   }
-  esle{
+  esle(){
     return 'dog'
   }
 }
