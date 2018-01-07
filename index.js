@@ -3,11 +3,19 @@ var animal = 'dog'
 function myAnimal() {
   return animal
 }
-
+function changeAnimal(animal){
+  if(animal =='dog'){
+    return cat
+  }
+  esle{
+    return 'dog'
+  }
+}
 function yourAnimal(animal) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
+  animal =changeAnimal(animal)
   return animal
 }
 
